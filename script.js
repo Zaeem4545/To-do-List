@@ -1,5 +1,3 @@
-// Simple Todo List for Beginners
-
 // Get page elements
 var addTaskBtn = document.getElementById('addTaskBtn');
 var clearTasksBtn = document.getElementById('clearTasksBtn');
