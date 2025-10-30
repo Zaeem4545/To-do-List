@@ -22,15 +22,24 @@ body {
     margin-left: 10px;
     padding: 8px 16px;
     border: none;
-    background: #007bff;
-    color: #fff;
     border-radius: 4px;
     cursor: pointer;
     font-size: 1em;
 }
+#addTaskBtn {
+    background: #28a745;
+    color: #fff;
+}
+#addTaskBtn:hover {
+    background: #218838;
+}
 
-.navbar-right button:hover {
-    background: #0056b3;
+#clearTasksBtn {
+    background: #dc3545;
+    color: #fff;
+}
+#clearTasksBtn:hover {
+    background: #c82333;
 }
 
 .task-list {
@@ -156,7 +165,7 @@ body {
 
 /* Style for Save and Cancel buttons in the form */
 #taskForm button[type="submit"] {
-    background: #007bff;
+    background: #28a745;
     color: #fff;
     border: none;
     padding: 8px 18px;
@@ -165,6 +174,11 @@ body {
     cursor: pointer;
     margin-right: 10px;
     transition: background 0.2s;
+}
+
+.edit-btn {
+    background: #ffc107;
+    color: #333;
 }
 
 #taskForm button[type="submit"]:hover {
