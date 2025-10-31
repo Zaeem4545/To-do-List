@@ -100,7 +100,7 @@ const editTask = (index) => {
 
 
 
-// Remove Task using filter (HOF)
+// Remove Task using filter
 const removeTask = (index) => {
   if (confirm('Delete this task?')) {
     tasks = tasks.filter((_, i) => i !== index);
@@ -113,7 +113,7 @@ const removeTask = (index) => {
 
 
 
-// Clear All Tasks using HOF handler
+// Clear All Tasks 
 const clearAllTasks = () => {
   if (tasks.length && confirm('Clear all tasks?')) {
     tasks = [];
@@ -126,7 +126,7 @@ const clearAllTasks = () => {
 
 
 
-// Attach button event handlers using HOF
+// Attach button 
 handleButton(addTaskBtn, () => {
   toggleDisplay(taskFormContainer, true);
   taskForm.reset();
